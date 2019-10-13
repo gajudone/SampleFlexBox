@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width; initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/5/53/Wikimedia-logo.png">
+        <style>
+            body,html { scroll-behavior:smooth}
+            body,*{ margin: 0px; padding: 0px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+            ul#firstUl{list-style-type: none; display: flex;background: rgb(27, 51, 27); justify-content:flex-start; flex-direction:row; position: fixed;width:100%;}
+            ul#firstUl li { background: rgb(70, 70, 14); margin: 1px;}
+            ul#firstUl li a { text-decoration: none; color: white; display: block;padding: 20px; text-align: center;}
+            ul#firstUl li a:hover { background: rgb(110, 55, 55);}
+            .firstContainer{ display: flex; background: white;justify-content: center; }
+            .firstContainer div { padding:20px;margin-top: 70px;}
+            .firstContainer div:not(:first-child) { border-left: 2px solid black;}
+            div.footer{ background: rgb(13, 13, 14);padding:20px; }
+            .footerContainer{ display: flex; flex-direction:row; justify-content:space-around;  }
+            .footerContainer div:not(:first-child){ border-left: 1px solid rgb(219, 216, 216);}
+            .footerContainer ul { list-style-type: none; margin: 10px;}
+            .footerContainer ul li a{  color: white; font-size: 12px;}
+            #scrollTop{ position: fixed; bottom: 10px; right: 10px; background: red;height:50px;width:50px;border-radius: 50%; cursor: pointer; border: 0px; outline: 0px;}
+            #icons{ text-align:center; }
+            #icons i{ margin: 20px; color:rgb(248, 250, 248);font-size:48px;cursor: pointer; }
+            #icons i:hover{ color: rgb(16, 12, 219);}
+            @media only screen and (max-width: 600px) {
+                ul#firstUl{
+                    flex-direction: column;
+                }
+                .firstContainer{
+                    flex-direction: column; 
+                }
+                .footerContainer{ flex-direction:column;}
+                .footerContainer div{ border-left:0px; border-bottom: 1px solid rgb(219, 216, 216); text-align: center;}
+                
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="firstUl">
+            <li ><a href="#Home">Home</a></li>
+            <li><a href="#Product">Product</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <input type="text" placeholder="Search" style="padding: 0 10px;flex:2;margin:5px;border-radius: 3px;border: 0px;outline:0px;height: 50px;">
+            <li><a href="">Search</a></li>
+            
+        </ul>
+        <div id="Home" class="firstContainer">
+            <div>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+            <div>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+            <div>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+            <div>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+        </div>
+        <div id="Product"  class="firstContainer">
+            <div>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+            <div>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+            <div>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+            <div>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</div>
+        </div>
+        <div id="Contact">
+            <h1 style="padding:70px 20px 20px;">Contact</h1>
+            <div style="display:flex;background:white;justify-content:space-between;padding:20px;">
+                <div style="background:black;height:400px;width:100%;flex:1;">
+                    
+                </div>
+                <div style="flex:2;padding: 10px; display: flex; flex-direction: column; justify-content:space-around;background:grey;">
+                        <h3>Contact us</h3>
+                        <label>Name</label>
+                        <input type="text" placeholder="Name" style="padding:10px;">
+                        <label>Email</label>
+                        <input type="text" placeholder="Name" style="padding:10px;">
+                        <label>Message</label>
+                        <textarea placeholder="message" rows=10 ></textarea>
+                    </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerContainer">
+                <div id="icons">
+                        <i class="fa fa-twitter" ></i>
+                        <i class="fa fa-facebook" ></i>
+                        <i class="fa fa-linkedin" ></i>
+                </div>
+            <div>
+                 <div >   <ul >
+                        <li><a href="">consequatur</a></li>
+                        <li><a href="">molestiae</a></li>
+                        <li><a href="">molestiae</a></li>
+                        <li><a href="">pariatur</a></li>
+                    </ul></div>
+                </div>
+                <div>
+                        <ul>
+                                <li><a href="">quisquam</a></li>
+                                <li><a href="">fugiat</a></li>
+                                <li><a href="">voluptate</a></li>
+                                <li><a href="">accusantium</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                            <ul>
+                                    <li><a href="">consequatur</a></li>
+                                    <li><a href="">molestiae</a></li>
+                                    <li><a href="">molestiae</a></li>
+                                    <li><a href="">pariatur</a></li>
+                            </ul>
+                        </div>
+        </div>
+        </div>
+        <button id="scrollTop">top</button>
+    </body>
+    <script>
+        document.getElementById("scrollTop").addEventListener("click",function(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        })
+    </script>
+</html>
+
